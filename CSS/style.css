@@ -1,0 +1,133 @@
+body {
+  width:80vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15vw;
+
+
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 2rem;
+  font-weight:bold;
+
+}
+
+#logo{
+  margin-right:10px;
+}
+
+#brand {
+  margin-right:auto;
+  display: flex;
+}
+
+article{
+  border: 1px grey dashed;
+  height: 30px;
+  margin-left:15vw;
+  margin-bottom:30px;
+
+}
+
+#section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:15vw;
+  margin-bottom:30px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+#section-head div:nth-child(2){
+  display:flex;
+  align-items:center;
+  font-family: sans-serif;
+
+}
+
+#section-head p{
+  color:grey;
+  font-size: small;
+}
+
+#content {
+  margin-left:15vw;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+#content p {
+  margin-top:20px;
+  color: rgb(108, 107, 107);
+}
+
+#content img{
+  width:100%;
+}
+
+#ingredientlist {
+  margin-left:15vw;
+
+}
+
+#ingredientlist img{
+  width:100%;
+  margin-bottom:20px;
+}
+
+#author {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:20px;
+  margin-left:15vw;
+}
+
+button {
+  background-color: rgb(197, 100, 89);
+  color:white;
+  text-align: center;
+  height:50px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#author div {
+  margin-right:auto;
+  margin-left:20px;
+}
+
+footer{
+  border-top: 1px solid grey;
+  margin-left:15vw;
+  margin-top:25px;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom:50px;
+  color:gray;
+}
+
+footer img {
+  z-index: 1000;
+  margin-top:-18px;
+  margin-bottom:20px;
+}
